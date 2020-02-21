@@ -117,7 +117,7 @@ Features
         See Fly Mode section for details
 
 *  Multibyte Pairs
-        
+
         Support any multibyte pairs such as <!-- -->, <% %>, """ """
         See multibyte pairs section for details
 
@@ -166,6 +166,13 @@ Options
         Default: g:AutoPairs
 
         Buffer level pairs set.
+
+*   g:AutoPairsSetKeymap
+
+        Default: 1
+
+        Sets the key mappings. If set to 0, neither open nor closed pair will
+        be mapped. but other function like shortcut jump or fastwrap still works.
 
 *   g:AutoPairsShortcutToggle
 
